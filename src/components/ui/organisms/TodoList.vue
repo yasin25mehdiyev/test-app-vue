@@ -53,7 +53,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { Loader2, AlertCircle, Plus } from 'lucide-vue-next';
-import { Card, CardContent } from '@/components/ui/atoms/card/index';
+import { Card, CardContent } from '@/components/ui/atoms/card';
 import { Button } from '@/components/ui/atoms/button';
 import TodoItem from '@/components/ui/molecules/TodoItem.vue';
 import TodoFilter from '@/components/ui/molecules/TodoFilter.vue';

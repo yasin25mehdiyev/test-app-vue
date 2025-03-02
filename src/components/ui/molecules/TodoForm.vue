@@ -38,11 +38,11 @@
 
 <script setup lang="ts">
 import { reactive, onMounted } from 'vue';
-import { Input } from '@/components/atoms/input';
-import { Label } from '@/components/atoms/label';
+import { Input } from '@/components/ui/atoms/input';
+import { Label } from '@/components/ui/atoms/label';
 import { Button } from '@/components/ui/atoms/button';
 import { Checkbox } from '@/components/ui/atoms/checkbox';
-import { Textarea } from '@/components/atoms/textarea';
+import { Textarea } from '@/components/ui/atoms/textarea';
 import type { Todo, CreateTodoInput, UpdateTodoInput } from '@/types';
 
 const props = defineProps<{

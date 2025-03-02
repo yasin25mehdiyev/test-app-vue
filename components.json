@@ -13,7 +13,7 @@
     "components": "@/components",
     "composables": "@/composables",
     "utils": "@/lib/utils",
-    "ui/atoms": "@/components/ui/atoms",
+    "ui": "@/components/ui/atoms",
     "lib": "@/lib"
   },
   "iconLibrary": "lucide"

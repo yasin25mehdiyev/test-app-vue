@@ -13,20 +13,20 @@
 </template>
 
 <script setup lang="ts">
-import { Button } from '@/components/ui/atoms/button';
-import { TodoFilter as FilterType } from '@/types';
+import { Button } from '@/components/ui/atoms/button'
+import { TodoFilter as FilterType } from '@/types'
 
 defineProps<{
-  modelValue: FilterType;
-}>();
+  modelValue: FilterType
+}>()
 
 defineEmits<{
-  (e: 'update:modelValue', value: FilterType): void;
-}>();
+  (e: 'update:modelValue', value: FilterType): void
+}>()
 
 const filters = [
   { label: 'All', value: FilterType.ALL },
   { label: 'Active', value: FilterType.ACTIVE },
   { label: 'Completed', value: FilterType.COMPLETED },
-];
+]
 </script>
